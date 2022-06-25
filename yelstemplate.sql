@@ -739,6 +739,13 @@ ALTER TABLE `user_inventory`
 --
 ALTER TABLE `user_licenses`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+INSERT INTO `datastore` (name, label, shared) VALUES
+	('user_ears', 'Accessoires d\'oreilles', 0),
+	('user_glasses', 'Lunettes', 0),
+	('user_helmet', 'Casque / Chapeau', 0),
+	('user_mask', 'Masque', 0)
+;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
