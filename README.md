@@ -1,6 +1,6 @@
 # YelSTemplate
 
-#### This script need ESX Framework
+#### This template need ESX Framework
 
 Preview: None
 
